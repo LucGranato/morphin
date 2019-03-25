@@ -1,0 +1,38 @@
+{
+  "name": "morphin",
+  "version": "1.0.0",
+  "description": "It's Morphin' Time!",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LucGranato/morphin.git"
+  },
+  "keywords": [
+    "morphin",
+    "transform",
+    "transformation",
+    "mapping",
+    "mapper",
+    "object",
+    "json",
+    "lodash"
+  ],
+  "author": "Luca Chamecki Granato <luca.granato@engaged.com.br>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LucGranato/morphin/issues"
+  },
+  "homepage": "https://github.com/LucGranato/morphin#readme",
+  "dependencies": {
+    "lodash.get": "^4.4.2",
+    "lodash.set": "^4.3.2",
+    "lodash.transform": "^4.6.0"
+  },
+  "devDependencies": {
+    "joi": "^14.3.1",
+    "mocha": "^6.0.2"
+  }
+}
